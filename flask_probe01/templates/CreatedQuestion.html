@@ -7,5 +7,37 @@
 <body>
     <h2>Thank you for your question</h2>
     <div>You asked: {{ question }}</div>
+    <br>
+    <form method="post">
+        <h2> <a href='create'>Create another question</a> </h2>
+        <h2> <a href='question/{{ rnd_question }}'>Answer random question</a> </h2>
+{#        <div>#}
+{#            <a href='" + url_for('create') + "'>Create a question</a>#}
+{#            <button property="createAnotherQ" type="button">Create another question</button>#}
+{#        </div>#}
+{#        <div>#}
+{#            <button property="ansRndQ" type="button">Answer random question</button>#}
+{#        </div>#}
+    </form>
+
+{#    <h2>create another question question</h2>#}
+{#    <form method="post">#}
+{#        <div>#}
+{#            <label for="title">Title</label>#}
+{#            <input name="title" type= "text" />#}
+{#        </div>#}
+{#        <div>#}
+{#            <label for="question">Question</label>#}
+{#            <input name="question" type = "text" />#}
+{#        </div>#}
+{#        <div>#}
+{#            <label for="answer">Answer</label>#}
+{#            <input name="answer" type = "text" />#}
+{#        </div>#}
+{#        <div>#}
+{#            <button type="submit">Submit Question (отправить вопрос)</button>#}
+{#        </div>#}
+{#    </form>#}
+
 </body>
 </html>
